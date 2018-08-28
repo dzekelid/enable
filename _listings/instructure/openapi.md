@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Instructure
 x-complete: 1
@@ -15,4 +14,34 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /courses/{course_id}/features/enabled:
+    get:
+      summary: List enabled features
+      description: List enabled features.
+      operationId: list-enabled-features
+      x-api-path-slug: coursescourse-idfeaturesenabled-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Features
+      - Enabled
+  /users/{user_id}/features/enabled:
+    get:
+      summary: List enabled features
+      description: List enabled features.
+      operationId: list-enabled-features
+      x-api-path-slug: usersuser-idfeaturesenabled-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - User
+      - Id
+      - Features
+      - Enabled

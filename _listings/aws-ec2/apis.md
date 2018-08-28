@@ -16,8 +16,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Enable
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/aws-ec2/apis.md
 specificationVersion: "0.14"
 apis:
@@ -35,6 +35,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/aws-ec2/actionenablevgwroutepropagation-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/aws-ec2/actionenablevgwroutepropagation-get-openapi.md
+- name: AWS EC2 API - Enable Volume I O
+  x-api-slug: actionenablevolumeio-get
+  description: |-
+    Enables I/O operations for a volume that had I/O operations disabled because the data on the
+          volume was potentially inconsistent.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/aws-ec2/actionenablevolumeio-get-openapi.md
 - name: AWS EC2 API - Enable Vpc Classic Link
   x-api-slug: actionenablevpcclassiclink-get
   description: Enables a VPC for ClassicLink.

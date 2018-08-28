@@ -6,11 +6,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-data
 x-kinRank: "8"
 x-alexaRank: "13593"
 tags: Enable
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/datadog/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: DataDog Merged API - Get Graph Embed Embed  Enable
+  x-api-slug: graphembedembed-idenable-get
+  description: Enable a specified embed.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
+  humanURL: https://www.datadoghq.com/
+  baseURL: https:///api/v1/
+  tags: Monitoring, Performance, Orchestration, Aggregation, Stack Network, SaaS,
+    Technology, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/datadog/graphembedembed-idenable-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://dataatwork.api.gallery.streamdata.io

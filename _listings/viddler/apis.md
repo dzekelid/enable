@@ -9,11 +9,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddle
 x-kinRank: "8"
 x-alexaRank: "81111"
 tags: Enable
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/viddler/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Viddler  API - Videos EnableAds
+  x-api-slug: viddler-videos-enableads-post
+  description: Turn ads off for specified videos.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
+  humanURL: http://www.viddler.com/
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/viddler/viddler-videos-enableads-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/viddler/viddler-videos-enableads-post-openapi.md
 - name: Viddler  API - Videos EnableAds
   x-api-slug: viddler-videos-enableads-post
   description: Turn ads off for specified videos.

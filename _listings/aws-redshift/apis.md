@@ -11,11 +11,39 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Enable
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/aws-redshift/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Redshift API - Enable Logging
+  x-api-slug: actionenablelogging-get
+  description: |-
+    Starts logging information, such as queries and connection attempts, for the
+                specified Amazon Redshift cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/aws-redshift/actionenablelogging-get-openapi.md
+- name: AWS Redshift API - Enable Snapshot Copy
+  x-api-slug: actionenablesnapshotcopy-get
+  description: |-
+    Enables the automatic copy of snapshots from one region to another region for a
+                specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Data Warehouse, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/aws-redshift/actionenablesnapshotcopy-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.rds.api.gallery.streamdata.io

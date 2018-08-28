@@ -12,11 +12,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Enable
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/aws-key-management-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Key Management Service API - Enable Key
+  x-api-slug: actionenablekey-get
+  description: Marks a key as enabled, thereby permitting its use.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
+  humanURL: https://aws.amazon.com/kms/
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/aws-key-management-service/actionenablekey-get-openapi.md
+- name: AWS Key Management Service API - Enable Key Rotation
+  x-api-slug: actionenablekeyrotation-get
+  description: Enables rotation of the specified customer master key.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
+  humanURL: https://aws.amazon.com/kms/
+  baseURL: :///
+  tags: Amazon Web Services, Encryption, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/enable/master/_listings/aws-key-management-service/actionenablekeyrotation-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.internet.of.things.api.gallery.streamdata.io
